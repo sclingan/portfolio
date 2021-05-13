@@ -9,18 +9,17 @@ import Home from './Home';
 
 function App() {
   return (
+    <Router>
     <main className="Main">
       {/* figure out how to get the nav to hover above the home page and only show on mouseover and mouseout */}
-      <Router>
          <Switch>
            <Route path='/About' component={About}/>
            <Route path='/Contact' component={Contact}/>
-           <Route path='/Projects' component={Projects}/>
+           <Route path='/Projects' component={Projects} exact/>
            <Route path='/' component={Home} exact/>   {/* fix this so that / and /Home land on the same page */}
          </Switch>
-     </Router>
-     <Nav />
     </main>
+    </Router>
   );
 }
 

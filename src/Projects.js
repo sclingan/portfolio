@@ -1,8 +1,11 @@
 import React from 'react';
+import './App.css';
 
 function Projects(){
     return(
-        <h1>Projects</h1>
+        <main className='Projects'>
+        Projects
+        </main>
     )
 }
 
