@@ -1,3 +1,10 @@
+/*  TODO
+    use grid or flex to make lining things up easier
+    use SASS and practice using variables and classes 
+*/
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -33,6 +40,7 @@ a{
   height: 100vh;
   max-width: 20%;
   padding: 4vh 2vw;
+  display: none;    /* use a mouseover to show/hide nav */
 }
 
 .Projects{
