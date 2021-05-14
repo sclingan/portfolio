@@ -2,50 +2,99 @@
     use grid or flex to make lining things up easier
     use SASS and practice using variables and classes 
 */
-
-
-
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Courier New', Courier, monospace;
-  color: black;
+  color: #0C0B0B;
   font-size: 36px;
 }
 
-.Home{
-  background: url('/src/images/Home.jpg');
+.Home {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 249, 249, 0.5)), to(rgba(87, 85, 85, 0.5))), url("/src/images/Home.jpg");
+  background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url("/src/images/Home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
 
-#title{
+#title {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 1;
   margin: 0 80vw;
   padding-top: 4vh;
-  width: 15%;
+  width: 10%;
 }
 
-ul li{
+ul li {
   list-style-type: none;
   text-decoration: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.Nav{
+.Nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
   background: lightgray;
   height: 100vh;
   max-width: 20%;
   padding: 4vh 2vw;
-  display: none;    /* use a mouseover to show/hide nav */
+  display: none;
+  /* use a mouseover to show/hide nav */
 }
 
-.Projects{
+.Projects {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
   color: white;
   background: black;
   font-family: 'Courier New', Courier, monospace;
   height: 100vh;
 }
+
+.Contact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 249, 249, 0.5)), to(rgba(87, 85, 85, 0.5))), url("/src/images/Contact.jpg");
+  background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url("/src/images/Contact.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 100vh;
+}
+
+#heading {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 1;
+  padding-top: 4vh;
+  font-size: 36px;
+}
+/*# sourceMappingURL=App.css.map */

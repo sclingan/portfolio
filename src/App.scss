@@ -1,0 +1,96 @@
+
+
+$font: 'Courier New', Courier;
+$black_font: #0C0B0B;
+$title: 36px;         // make this responsive
+$header_title: 3vw;   // research difference between vh and vw!!
+$page_height: 100vh;
+$white_font: #ffffff;
+$center: center;
+$bg_grey: #808080;
+
+
+/*  TODO
+    use grid or flex to make lining things up easier
+    use SASS and practice using variables and classes 
+*/
+
+
+
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', Courier, monospace;
+      color: $black_font;
+      font-size: $title;
+  }
+  
+  .Home{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+      background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Home.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+  }
+  
+  #title{
+      grid-column-start: 4;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      margin: 0 80vw;
+      padding-top: 4vh;
+      width: 10%;
+  }
+  
+  ul li{
+      list-style-type: none;
+      text-decoration: none;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  .Nav{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+      background: lightgray;
+      height: 100vh;
+      max-width: 20%;
+      padding: 4vh 2vw;
+      display: none;    /* use a mouseover to show/hide nav */
+  }
+  
+  .Projects{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+      color: white;
+      background: black;
+      font-family: 'Courier New', Courier, monospace;
+      height: 100vh;
+  }
+
+  .Contact{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+      background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Contact.jpg');
+      background-repeat: no-repeat;
+      background-position: right top;
+      height: 100vh;
+  }
+
+  #heading{
+      grid-column-start: 3;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      padding-top: 4vh;
+      font-size: 36px;
+  }
+  
