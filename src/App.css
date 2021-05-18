@@ -44,7 +44,18 @@ a {
   text-decoration: none;
 }
 
-.Nav {
+#showNav {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 1;
+  height: 1vh;
+  width: 2vw;
+}
+
+#Nav {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto;

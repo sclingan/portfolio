@@ -52,8 +52,17 @@ $bg_grey: #808080;
   a{
       text-decoration: none;
   }
+
+  #showNav{
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      height: 1vh;
+      width: 2vw;
+  }
   
-  .Nav{
+  #Nav{
       display: grid;
       grid-template-columns: auto auto auto auto;
       grid-template-rows: auto auto auto auto;
