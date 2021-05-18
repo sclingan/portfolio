@@ -97,4 +97,17 @@ a {
   padding-top: 4vh;
   font-size: 36px;
 }
+
+.Projects {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 249, 249, 0.5)), to(rgba(87, 85, 85, 0.5))), url("/src/images/Projects.jpg");
+  background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url("/src/images/Projects.jpg");
+  color: #0C0B0B;
+  font-family: "Courier New", Courier;
+}
 /*# sourceMappingURL=App.css.map */
