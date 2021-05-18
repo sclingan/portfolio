@@ -4,7 +4,7 @@ import './App.css';
 function Projects(){
     return(
         <main className='Projects'>
-        Projects
+         <div id='projects-title'>Projects</div>
         </main>
     )
 }

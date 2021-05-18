@@ -102,4 +102,13 @@ $bg_grey: #808080;
       color: $black_font;
       font-family: $font;
   }
+
+  #projects-title{
+      font-size: 36px;
+      grid-column-start: 3;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      padding-top: 4vh;
+  }
   
