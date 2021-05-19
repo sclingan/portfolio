@@ -11,7 +11,6 @@ function App() {
   return (
     <Router>
     <main className="Main">
-      <Nav />
       {/* figure out how to get the nav to hover above the home page and only show on mouseover and mouseout */}
          <Switch>
            <Route path='/About' component={About}/>

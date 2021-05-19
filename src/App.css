@@ -44,17 +44,6 @@ a {
   text-decoration: none;
 }
 
-#showNav {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 1;
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  grid-row-end: 1;
-  height: 1vh;
-  width: 2vw;
-}
-
 #Nav {
   display: -ms-grid;
   display: grid;
@@ -106,6 +95,18 @@ a {
   grid-row-end: 1;
   padding-top: 4vh;
   font-size: 36px;
+  text-align: center;
+}
+
+#contact_p {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 1;
+  font-family: "Courier New", Courier;
+  font-size: 21px;
 }
 
 .Projects {

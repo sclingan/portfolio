@@ -52,15 +52,6 @@ $bg_grey: #808080;
   a{
       text-decoration: none;
   }
-
-  #showNav{
-      grid-column-start: 1;
-      grid-column-end: 1;
-      grid-row-start: 1;
-      grid-row-end: 1;
-      height: 1vh;
-      width: 2vw;
-  }
   
   #Nav{
       display: grid;
@@ -101,6 +92,16 @@ $bg_grey: #808080;
       grid-row-end: 1;
       padding-top: 4vh;
       font-size: 36px;
+      text-align: center;
+  }
+
+  #contact_p{
+      grid-column-start: 3;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      font-family: $font;
+      font-size: 21px;
   }
 
   .Projects{
