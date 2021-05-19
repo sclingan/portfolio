@@ -76,7 +76,7 @@ $bg_grey: #808080;
 
   .Contact{
       display: grid;
-      grid-template-columns: auto auto auto auto;
+      grid-template-columns: 20% 20% 20% 20% 20%;  //adjust column and row sizes to fit page
       grid-template-rows: auto auto auto auto;
       background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Contact.jpg');
       background-repeat: no-repeat;
@@ -96,12 +96,22 @@ $bg_grey: #808080;
   }
 
   #contact_p{
-      grid-column-start: 3;
-      grid-column-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 5;
       grid-row-start: 1;
       grid-row-end: 1;
       font-family: $font;
       font-size: 21px;
+      padding-top: 2vh;
+  }
+
+  #contact_form{
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      background: transparent;
+      font-size: 30px;
   }
 
   .Projects{

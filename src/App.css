@@ -75,8 +75,8 @@ a {
 .Contact {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
+  -ms-grid-columns: 20% 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20% 20%;
   -ms-grid-rows: auto auto auto auto;
       grid-template-rows: auto auto auto auto;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 249, 249, 0.5)), to(rgba(87, 85, 85, 0.5))), url("/src/images/Contact.jpg");
@@ -99,14 +99,26 @@ a {
 }
 
 #contact_p {
-  -ms-grid-column: 3;
-      grid-column-start: 3;
-  grid-column-end: 3;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 5;
   -ms-grid-row: 1;
       grid-row-start: 1;
   grid-row-end: 1;
   font-family: "Courier New", Courier;
   font-size: 21px;
+  padding-top: 2vh;
+}
+
+#contact_form {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 4;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  background: transparent;
+  font-size: 30px;
 }
 
 .Projects {
