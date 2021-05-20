@@ -10,10 +10,11 @@ function Contact(){
                 </div>
             </div>
             <form id='contact_form'>
-                Name:<input></input>
-                E-mail:<input></input>
-                Subject:<input></input>
-                Message:<input></input>
+                Name:<input id='form_name'></input>
+                E-mail:<input id='form_email'></input>
+                Subject:<input id='form_subject'></input>
+                Message:<textarea id='form_message'></textarea>
+                <button id='form_submit'>Send E-mail</button>
             </form>
         </main>
     )

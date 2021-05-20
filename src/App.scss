@@ -12,6 +12,7 @@ $bg_grey: #808080;
 
 /*  TODO
     figure out a background img for the about page
+    make sure font sizes are consistent across all pages, same as font-family
 */
 
 
@@ -112,6 +113,57 @@ $bg_grey: #808080;
       grid-row-end: 3;
       background: transparent;
       font-size: 30px;
+  }
+
+  #form_name{    // fix the font size of inputs
+      background: lightgrey;
+      width: 12vw;
+      margin-left: 2.5vw;
+      outline: none;
+      border: none;
+      padding-left: .5vw;
+      font-size: 24px;
+  }
+
+  #form_email{     // make sure to clarify that this is either 'from' email or 'to' email
+      margin-top: 4vh;
+      background: lightgrey;
+      width: 12vw;
+      margin-left: .5vw;
+      outline: none;
+      border: none;
+      padding-left: .5vw;
+      font-size: 24px;
+  }
+
+  #form_subject{
+      background: lightgrey;
+      margin-top: 4vh;
+      width: 11vw;
+      margin-left: .5vw;
+      outline: none;
+      border: none;
+      padding-left: .5vw;
+      margin-bottom: 2vh;
+      font-size: 24px;
+  }
+
+  #form_message{
+      background: lightgrey;
+      min-height: 20vh;
+      min-width: 20vw;
+      border: none;
+      outline: none;
+      padding-left: .5vw;
+      font-size: 20px;
+  }
+
+  #form_submit{
+      background: lightgrey;
+      margin-top: 20vh;
+      border-radius: .5vw;
+      font-size: 24px;
+      padding: .5vw;
   }
 
   .Projects{
