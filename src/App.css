@@ -60,19 +60,6 @@ a {
   /* use a mouseover to show/hide nav */
 }
 
-.Projects {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
-  -ms-grid-rows: auto auto auto auto;
-      grid-template-rows: auto auto auto auto;
-  color: white;
-  background: black;
-  font-family: 'Courier New', Courier, monospace;
-  height: 100vh;
-}
-
 .Contact {
   display: -ms-grid;
   display: grid;
@@ -176,14 +163,16 @@ a {
 .Projects {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
   -ms-grid-rows: auto auto auto auto;
       grid-template-rows: auto auto auto auto;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 249, 249, 0.5)), to(rgba(87, 85, 85, 0.5))), url("/src/images/Projects.jpg");
   background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url("/src/images/Projects.jpg");
   color: #0C0B0B;
   font-family: "Courier New", Courier;
+  height: 100vh;
+  text-align: center;
 }
 
 #projects-title {
@@ -195,5 +184,73 @@ a {
       grid-row-start: 1;
   grid-row-end: 1;
   padding-top: 4vh;
+}
+
+#project_1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 24px;
+  text-align: center;
+}
+
+#project_randomQuote {
+  width: 20vw;
+  height: 20vh;
+  margin-top: 2vh;
+}
+
+#project_2 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 24px;
+  text-align: center;
+}
+
+#project_usGdp {
+  width: 20vw;
+  height: 20vh;
+  margin-top: 2vh;
+}
+
+#project_3 {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 5;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 24px;
+  text-align: center;
+}
+
+#project_Coffee {
+  width: 20vw;
+  height: 20vh;
+  margin-top: 2vh;
+}
+
+#project_4 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 3;
+  font-size: 24px;
+  text-align: center;
+}
+
+#project_drum {
+  width: 20vw;
+  height: 20vh;
+  margin-top: 2vh;
 }
 /*# sourceMappingURL=App.css.map */

@@ -64,16 +64,6 @@ $bg_grey: #808080;
       padding: 4vh 2vw;
       display: none;    /* use a mouseover to show/hide nav */
   }
-  
-  .Projects{
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      grid-template-rows: auto auto auto auto;
-      color: white;
-      background: black;
-      font-family: 'Courier New', Courier, monospace;
-      height: 100vh;
-  }
 
   .Contact{
       display: grid;
@@ -168,11 +158,13 @@ $bg_grey: #808080;
 
   .Projects{
       display: grid;
-      grid-template-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
       grid-template-rows: auto auto auto auto;
       background: linear-gradient(rgba(252,249,249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Projects.jpg');
       color: $black_font;
       font-family: $font;
+      height: 100vh;
+      text-align: center;
   }
 
   #projects-title{
@@ -183,4 +175,64 @@ $bg_grey: #808080;
       grid-row-end: 1;
       padding-top: 4vh;
   }
+
+  #project_1{
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 2;
+      grid-row-end: 2;
+      font-size: 24px;
+      text-align: center;
+  }
+
+  #project_randomQuote{
+      width: 20vw;
+      height: 20vh;
+      margin-top: 2vh;
+  }
+
+  #project_2{
+      grid-column-start: 3;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 2;
+      font-size: 24px;
+      text-align: center;
+  }
+
+  #project_usGdp{
+      width: 20vw;
+      height: 20vh;
+      margin-top: 2vh;
+  }
+
+  #project_3{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-size: 24px;
+    text-align: center;
+}
+
+#project_Coffee{
+    width: 20vw;
+    height: 20vh;
+    margin-top: 2vh;
+}
+
+#project_4{        // make all projects a class with sass
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 24px;
+    text-align: center;
+}
+
+#project_drum{
+    width: 20vw;
+    height: 20vh;
+    margin-top: 2vh;
+}
   

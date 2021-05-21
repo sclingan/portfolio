@@ -1,10 +1,26 @@
 import React from 'react';
 import './App.css';
+import  randomquote from './images/RandomQuoteMachine.png';
+import gdp from './images/United_States_GDP.png';
+import coffee from './images/Coffee Shop.png';
+import drum from './images/Drum Machine.png';
 
 function Projects(){
     return(
         <main className='Projects'>
          <div id='projects-title'>Projects</div>
+         <div id='project_1'>Random Quote Machine<br />
+         <img id='project_randomQuote' src={randomquote} alt='Random Quote Generator'></img>
+         </div>
+         <div id='project_2'>United States GDP<br />
+         <img id='project_usGdp' src={gdp} alt='United States GDP'></img>
+         </div>
+         <div id='project_3'>Coffee Shop<br />
+         <img id='project_Coffee' src={coffee} alt='Coffee Shop'></img>
+         </div>
+         <div id='project_4'>Drum Machine<br />
+         <img id='project_drum' src={drum} alt='Drum Machine'></img>
+         </div>
         </main>
     )
 }
