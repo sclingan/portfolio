@@ -4,6 +4,7 @@ import  randomquote from './images/RandomQuoteMachine.png';
 import gdp from './images/United_States_GDP.png';
 import coffee from './images/Coffee Shop.png';
 import drum from './images/Drum Machine.png';
+import pomodoro from './images/Pomodoro.png';
 
 function Projects(){
     return(
@@ -20,6 +21,12 @@ function Projects(){
          </div>
          <div id='project_4'>Drum Machine<br />
          <img id='project_drum' src={drum} alt='Drum Machine'></img>
+         </div>
+         <div id='project_5'><br />
+         {/*<img id='project_' src='' alt=''></img>*/}
+         </div>
+         <div id='project_6'>Pomodoro<br />
+         <img id='project_pomodoro' src={pomodoro} alt='Pomodoro'></img>
          </div>
         </main>
     )

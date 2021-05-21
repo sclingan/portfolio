@@ -235,4 +235,34 @@ $bg_grey: #808080;
     height: 20vh;
     margin-top: 2vh;
 }
+
+#project_5{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 24px;
+    text-align: center;
+}
+
+#project_{
+    width: 20vw;
+    height: 20vh;
+    margin-top: 2vh;
+}
+
+#project_6{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 24px;
+    text-align: center;
+}
+
+#project_pomodoro{
+    width: 20vw;
+    height: 20vh;
+    margin-top: 2vh;
+}
   
