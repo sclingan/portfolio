@@ -304,4 +304,32 @@ $bg_grey: #808080;
     font-size: 24px;
     text-align: center;
 }
+
+img{
+    border: none;
+}
+
+img:hover{
+    box-shadow: 5px 10px;
+}
+
+#About{    // not sure if I like the background image, so it may just be a placeholder
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    background: linear-gradient(rgba(252,249,249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/About.jpg');
+    font-family: $font;
+    font-size: 36px;
+    height: 100vh;
+}
+
+#about_title{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size: 36px;
+    color: $black_font;
+    margin-top: 2vh;
+}
   
