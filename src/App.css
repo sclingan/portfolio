@@ -287,4 +287,49 @@ a {
   height: 20vh;
   margin-top: 2vh;
 }
+
+#project_7 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 4;
+  font-size: 24px;
+  text-align: center;
+}
+
+#project_usBar {
+  width: 20vw;
+  height: 20vh;
+  margin-top: 2vh;
+}
+
+#project_8 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 4;
+  font-size: 24px;
+  text-align: center;
+}
+
+#project_ {
+  width: 20vw;
+  height: 20vh;
+  margin-top: 2vh;
+}
+
+#project_9 {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 5;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 4;
+  font-size: 24px;
+  text-align: center;
+}
 /*# sourceMappingURL=App.css.map */

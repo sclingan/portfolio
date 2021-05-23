@@ -5,6 +5,7 @@ import gdp from './images/United_States_GDP.png';
 import coffee from './images/Coffee Shop.png';
 import drum from './images/Drum Machine.png';
 import pomodoro from './images/Pomodoro.png';
+import barChart from './images/United_States_Bar_Chart.png';
 
 function Projects(){
     return(
@@ -27,6 +28,15 @@ function Projects(){
          </div>
          <div id='project_6'>Pomodoro<br />
          <img id='project_pomodoro' src={pomodoro} alt='Pomodoro'></img>
+         </div>
+         <div id='project_7'>U.S Bar Char<br />
+         <img id='project_usBar' src={barChart} alt='U.S Bar Chart'></img>
+         </div>
+         <div id='project_8'>More to come<br />
+         <img id='project_' src='' alt=''></img>
+         </div>
+         <div id='project_9'>More to come<br />
+         <img id='project_' src='' alt=''></img>
          </div>
         </main>
     )
