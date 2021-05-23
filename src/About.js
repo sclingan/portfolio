@@ -6,11 +6,7 @@ function About(){
         <div id='about_title'>
             About Me
         </div>
-        <div id='about_p'>
-            This is just a test paragraph to see how well the 
-            text shows up against the background.
-        </div>
-        <div id='about_p2'>
+        <div id='about_p2'>  {/* write copy for about and home page */}
             This is just a test paragraph to see how well the 
             text shows up against the background.
         </div>

@@ -11,7 +11,6 @@ $bg_grey: #808080;
 
 
 /*  TODO
-    figure out a background img for the about page
     make sure font sizes are consistent across all pages, same as font-family
 */
 
@@ -317,7 +316,8 @@ img:hover{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: auto auto auto auto;
-    background: linear-gradient(rgba(252,249,249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/About.jpg');
+    background: linear-gradient(rgba(252,249,249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/About1.jpg');
+    //background-position: left bottom;
     font-family: $font;
     font-size: 36px;
     height: 100vh;
@@ -333,22 +333,14 @@ img:hover{
     margin-top: 2vh;
 }
 
-#about_p{
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 2;
+#about_p2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
     grid-row-end: 3;
     font-size: 24px;
     text-align: center;
-}
-
-#about_p2{
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    font-size: 24px;
-    text-align: center;
-    color: white;
+    color: $black_font;
+    margin: 0 2vh 0 6vh;
 }
   
