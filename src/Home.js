@@ -1,5 +1,6 @@
 import React from 'react';
-import Nav from './Nav';
+import {Link} from 'react-router-dom';
+
 
 function Home(){
     return(
@@ -8,6 +9,14 @@ function Home(){
                Scott Clingan
                Web Developer
            </div>
+           <div id='Nav'>
+              <ul>
+                  <Link to='/'><li>Home</li></Link>
+                  <Link to='/About'><li>About</li></Link>
+                  <Link to='/Contact'><li>Contact</li></Link>
+                  <Link to='/Projects'><li>Projects</li></Link>
+              </ul>
+        </div>
         </main>
     )
 }

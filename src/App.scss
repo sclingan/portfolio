@@ -43,26 +43,6 @@ $bg_grey: #808080;
       padding-top: 4vh;
       width: 10%;
   }
-  
-  ul li{
-      list-style-type: none;
-      text-decoration: none;
-  }
-  
-  a{
-      text-decoration: none;
-  }
-  
-  #Nav{
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      grid-template-rows: auto auto auto auto;
-      background: lightgray;
-      height: 100vh;
-      max-width: 20%;
-      padding: 4vh 2vw;
-      display: none;    /* use a mouseover to show/hide nav */
-  }
 
   .Contact{
       display: grid;

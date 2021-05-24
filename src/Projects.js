@@ -29,7 +29,7 @@ function Projects(){
          <div id='project_6'>Pomodoro<br />
          <img id='project_pomodoro' src={pomodoro} alt='Pomodoro'></img>
          </div>
-         <div id='project_7'>U.S Bar Char<br />
+         <div id='project_7'>U.S Bar Chart<br />
          <img id='project_usBar' src={barChart} alt='U.S Bar Chart'></img>
          </div>
          <div id='project_8'>More to come<br />
