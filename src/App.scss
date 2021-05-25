@@ -32,6 +32,7 @@ $bg_grey: #808080;
       background-repeat: no-repeat;
       background-size: cover;
       height: 100vh;
+      z-index: 0;
   }
   
   #title{
@@ -42,6 +43,7 @@ $bg_grey: #808080;
       margin: 0 80vw;
       padding-top: 4vh;
       width: 10%;
+      z-index: 0;
   }
 
   .Contact{
@@ -322,5 +324,26 @@ img:hover{
     text-align: center;
     color: $black_font;
     margin: 0 2vh 0 6vh;
+}
+
+#Nav{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+
+#Nav, ul, li, a{
+    text-decoration: none;
+    list-style-type: none;
+    z-index: 1;
+    margin: 3vh 1vw;
+}
+
+li:hover{
+    color: white;
 }
   

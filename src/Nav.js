@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-/*function Nav(){
+function Nav(){
     return(
         <div id='Nav'>
               <ul>
@@ -14,4 +14,4 @@ import {Link} from 'react-router-dom';
     )
 }
 
-export default Nav;*/
+export default Nav;
