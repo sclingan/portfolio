@@ -8,16 +8,16 @@ import Home from './Home';
 
 function App() {  
   return (
-    <Router>
     <main className="Main">
+    <Router>
          <Switch>
            <Route path='/About' component={About}/>
            <Route path='/Contact' component={Contact}/>
            <Route path='/Projects' component={Projects} exact/>
            <Route path='/' component={Home} exact/>   {/* fix this so that / and /Home land on the same page */}
          </Switch>
-    </main>
     </Router>
+    </main>
   );
 }
 

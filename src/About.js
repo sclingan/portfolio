@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './Nav';
 
 function About(){
     return(
@@ -10,6 +11,7 @@ function About(){
             This is just a test paragraph to see how well the 
             text shows up against the background.
         </div>
+        <Nav />
         </main>
     )
 }

@@ -6,6 +6,7 @@ import coffee from './images/Coffee Shop.png';
 import drum from './images/Drum Machine.png';
 import pomodoro from './images/Pomodoro.png';
 import barChart from './images/United_States_Bar_Chart.png';
+import Nav from './Nav';
 
 function Projects(){
     return(
@@ -38,6 +39,7 @@ function Projects(){
          <div id='project_9'>More to come<br />
          <img id='project_' src='' alt=''></img>
          </div>
+         <Nav />
         </main>
     )
 }

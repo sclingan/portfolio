@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './Nav';
 
 
 function Contact(){
@@ -16,6 +17,7 @@ function Contact(){
                 Message:<textarea id='form_message'></textarea>
                 <button id='form_submit'>Send E-mail</button>
             </form>
+            <Nav />
         </main>
     )
 }
