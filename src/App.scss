@@ -26,7 +26,7 @@ $bg_grey: #808080;
   
   .Home{
       display: grid;
-      grid-template-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
       grid-template-rows: auto auto auto auto 15%;
       background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Home.jpg');
       background-repeat: no-repeat;
@@ -40,8 +40,19 @@ $bg_grey: #808080;
       grid-row-start: 1;
       grid-row-end: 1;
       margin: 0 80vw;
-      padding-top: 4vh;
+      padding-top: 8vh;
       width: 10%;
+  }
+
+  #intro{
+      grid-column-start: 4;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 2;
+      font-size: 21px;
+      text-align: center;
+      margin: 0 77vw;
+      padding-left: 4vw;
   }
 
   .Contact{
@@ -60,7 +71,7 @@ $bg_grey: #808080;
       grid-column-end: 3;
       grid-row-start: 1;
       grid-row-end: 1;
-      padding-top: 4vh;
+      padding-top: 3vh;
       font-size: 36px;
       text-align: center;
   }
@@ -72,7 +83,7 @@ $bg_grey: #808080;
       grid-row-end: 1;
       font-family: $font;
       font-size: 21px;
-      padding-top: 2vh;
+      padding-top: 1vh;
   }
 
   #contact_form{
@@ -129,7 +140,7 @@ $bg_grey: #808080;
 
   #form_submit{
       background: lightgrey;
-      margin-top: 20vh;
+      margin-top: 10vh;
       border-radius: .5vw;
       font-size: 24px;
       padding: .5vw;

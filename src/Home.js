@@ -9,6 +9,10 @@ function Home(){
                Scott Clingan
                Web Developer
            </div>
+           <p id='intro'>
+               Hi, I'm Scott and I love to code! Being a Web
+               Developer is everything to me.
+           </p>
            <Nav />
         </main>
     )
