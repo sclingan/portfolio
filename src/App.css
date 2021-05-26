@@ -375,4 +375,8 @@ img:hover {
   display: inline;
   z-index: 1;
 }
+
+li:hover {
+  color: black;
+}
 /*# sourceMappingURL=App.css.map */
