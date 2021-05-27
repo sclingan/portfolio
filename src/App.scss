@@ -325,14 +325,20 @@ img:hover{
 }
 
 #about_p2{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
     grid-row-end: 3;
-    font-size: 24px;
-    text-align: center;
+    font-size: 21px;
+    text-indent: 2vw;
     color: $black_font;
-    margin: 0 2vh 0 6vh;
+    margin: 0 4vh 0 6vh;
+}
+
+#about_p3{
+    font-size: 21px;
+    text-indent: 2vw;
+    color: $black_font;
 }
 
 #Nav{

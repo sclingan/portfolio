@@ -8,7 +8,7 @@ import pomodoro from './images/Pomodoro.png';
 import barChart from './images/United_States_Bar_Chart.png';
 import Nav from './Nav';
 
-function Projects(){
+function Projects(){ {/* add more projects!! */}
     return(
         <main className='Projects'>
          <div id='projects-title'>Projects</div>
