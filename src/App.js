@@ -11,7 +11,7 @@ import Home from './Home';
    set up e-mail on contact page, ensure form works as intended
    fix home page and / issue in react router
    set up the nav component so it shows on all pages
-   clean up code and add any comments that are needed˝
+   clean up code and add any comments that are needed
 */
 
 function App() {  
