@@ -57,12 +57,11 @@ $bg_grey: #808080;
 
   .Contact{
       display: grid;
-      grid-template-columns: 20% 20% 20% 20% 20%;  //adjust column and row sizes to fit page
+      grid-template-columns: 20% 20% 20% 20% 20%;  
       grid-template-rows: auto auto auto auto auto;
       background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Contact.jpg');
       background-repeat: no-repeat;
       background-position: right top;
-      //background-position: -640px 100px;
       height: 100vh;
   }
 
@@ -303,12 +302,11 @@ img:hover{
     box-shadow: 5px 10px;
 }
 
-#About{    // not sure if I like the background image, so it may just be a placeholder
+#About{   
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: auto auto auto auto 15%;
     background: linear-gradient(rgba(252,249,249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/About1.jpg');
-    //background-position: left bottom;
     font-family: $font;
     font-size: 36px;
     height: 100vh;
