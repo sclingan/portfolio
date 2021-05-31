@@ -2,7 +2,7 @@
 
 $font: 'Courier New', Courier;
 $black_font: #0C0B0B;
-$title: 36px;         // make this responsive
+$title: 1.9vw;         
 $header_title: 3vw;   
 $page_height: 100vh;
 $white_font: #ffffff;
@@ -92,7 +92,7 @@ $p_text: 1.2vw;
       grid-row-start: 2;
       grid-row-end: 3;
       background: transparent;
-      font-size: 30px;
+      font-size: 1.5vw;
   }
 
   #form_name{    // fix the font size of inputs

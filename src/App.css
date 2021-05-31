@@ -6,7 +6,7 @@
   padding: 0;
   font-family: "Courier New", Courier;
   color: #0C0B0B;
-  font-size: 36px;
+  font-size: 1.9vw;
 }
 
 .Home {
@@ -70,7 +70,7 @@
       grid-row-start: 1;
   grid-row-end: 1;
   padding-top: 3vw;
-  font-size: 36px;
+  font-size: 1.9vw;
   text-align: center;
 }
 
@@ -94,7 +94,7 @@
       grid-row-start: 2;
   grid-row-end: 3;
   background: transparent;
-  font-size: 30px;
+  font-size: 1.5vw;
 }
 
 #form_name {
@@ -164,7 +164,7 @@
 }
 
 #projects-title {
-  font-size: 36px;
+  font-size: 1.9vw;
   -ms-grid-column: 3;
       grid-column-start: 3;
   grid-column-end: 3;
@@ -340,7 +340,7 @@ img:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 249, 249, 0.5)), to(rgba(87, 85, 85, 0.5))), url("/src/images/About1.jpg");
   background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url("/src/images/About1.jpg");
   font-family: "Courier New", Courier;
-  font-size: 36px;
+  font-size: 1.9vw;
   height: 100vh;
 }
 
@@ -351,7 +351,7 @@ img:hover {
   -ms-grid-row: 1;
       grid-row-start: 1;
   grid-row-end: 1;
-  font-size: 36px;
+  font-size: 1.9vw;
   color: #0C0B0B;
   margin-top: 2vh;
 }
