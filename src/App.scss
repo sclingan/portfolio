@@ -13,6 +13,7 @@ $p_text: 24px;
 
 /*  TODO
     make sure font sizes are consistent across all pages, same as font-family
+    make responsive
 */
 
 
@@ -50,7 +51,7 @@ $p_text: 24px;
       grid-column-end: 4;
       grid-row-start: 2;
       grid-row-end: 2;
-      font-size: 21px;
+      font-size: $p_text;
       text-align: $center;
       margin: 0 77vw;
       padding-left: 4vw;
@@ -135,7 +136,7 @@ $p_text: 24px;
       border: none;
       outline: none;
       padding-left: .5vw;
-      font-size: 20px;
+      font-size: $p_text;
   }
 
   #form_submit{
@@ -328,14 +329,14 @@ img:hover{
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    font-size: 21px;
+    font-size: $p_text;
     text-indent: 2vw;
     color: $black_font;
     margin: 0 4vh 0 6vh;
 }
 
 #about_p3{
-    font-size: 21px;
+    font-size: $p_text;
     text-indent: 2vw;
     color: $black_font;
 }
