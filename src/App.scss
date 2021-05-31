@@ -8,6 +8,7 @@ $page_height: 100vh;
 $white_font: #ffffff;
 $center: center;
 $bg_grey: #808080;
+$p_text: 24px;
 
 
 /*  TODO
@@ -19,7 +20,7 @@ $bg_grey: #808080;
 *{
       margin: 0;
       padding: 0;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: $font;
       color: $black_font;
       font-size: $title;
   }
@@ -31,7 +32,7 @@ $bg_grey: #808080;
       background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Home.jpg');
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100vh;
+      height: $page_height;
   }
   
   #title{
@@ -50,7 +51,7 @@ $bg_grey: #808080;
       grid-row-start: 2;
       grid-row-end: 2;
       font-size: 21px;
-      text-align: center;
+      text-align: $center;
       margin: 0 77vw;
       padding-left: 4vw;
   }
@@ -62,7 +63,7 @@ $bg_grey: #808080;
       background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Contact.jpg');
       background-repeat: no-repeat;
       background-position: right top;
-      height: 100vh;
+      height: $page_height;
   }
 
   #heading{
@@ -70,9 +71,9 @@ $bg_grey: #808080;
       grid-column-end: 3;
       grid-row-start: 1;
       grid-row-end: 1;
-      padding-top: 3vh;
-      font-size: 36px;
-      text-align: center;
+      padding-top: $header_title;
+      font-size: $title;
+      text-align: $center;
   }
 
   #contact_p{
@@ -81,7 +82,7 @@ $bg_grey: #808080;
       grid-row-start: 1;
       grid-row-end: 1;
       font-family: $font;
-      font-size: 21px;
+      font-size: $p_text;
       padding-top: 1vh;
   }
 
@@ -101,7 +102,7 @@ $bg_grey: #808080;
       outline: none;
       border: none;
       padding-left: .5vw;
-      font-size: 24px;
+      font-size: $p_text;
   }
 
   #form_email{     // make sure to clarify that this is either 'from' email or 'to' email
@@ -112,7 +113,7 @@ $bg_grey: #808080;
       outline: none;
       border: none;
       padding-left: .5vw;
-      font-size: 24px;
+      font-size: $p_text;
   }
 
   #form_subject{
@@ -124,7 +125,7 @@ $bg_grey: #808080;
       border: none;
       padding-left: .5vw;
       margin-bottom: 2vh;
-      font-size: 24px;
+      font-size: $p_text;
   }
 
   #form_message{
@@ -141,7 +142,7 @@ $bg_grey: #808080;
       background: lightgrey;
       margin-top: 10vh;
       border-radius: .5vw;
-      font-size: 24px;
+      font-size: $p_text;
       padding: .5vw;
   }
 
@@ -152,12 +153,12 @@ $bg_grey: #808080;
       background: linear-gradient(rgba(252,249,249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Projects.jpg');
       color: $black_font;
       font-family: $font;
-      height: 100vh;
-      text-align: center;
+      height: $page_height;
+      text-align: $center;
   }
 
   #projects-title{
-      font-size: 36px;
+      font-size: $title;
       grid-column-start: 3;
       grid-column-end: 3;
       grid-row-start: 1;
@@ -170,8 +171,8 @@ $bg_grey: #808080;
       grid-column-end: 1;
       grid-row-start: 2;
       grid-row-end: 2;
-      font-size: 24px;
-      text-align: center;
+      font-size: $p_text;
+      text-align: $center;
   }
 
   #project_randomQuote{
@@ -185,8 +186,8 @@ $bg_grey: #808080;
       grid-column-end: 3;
       grid-row-start: 2;
       grid-row-end: 2;
-      font-size: 24px;
-      text-align: center;
+      font-size: $p_text;
+      text-align: $center;
   }
 
   #project_usGdp{
@@ -200,8 +201,8 @@ $bg_grey: #808080;
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 2;
-    font-size: 24px;
-    text-align: center;
+    font-size: $p_text;
+    text-align: $center;
 }
 
 #project_Coffee{
@@ -215,8 +216,8 @@ $bg_grey: #808080;
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3;
-    font-size: 24px;
-    text-align: center;
+    font-size: $p_text;
+    text-align: $center;
 }
 
 #project_drum{
@@ -230,8 +231,8 @@ $bg_grey: #808080;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 3;
-    font-size: 24px;
-    text-align: center;
+    font-size: $p_text;
+    text-align: $center;
 }
 
 #project_{
@@ -245,8 +246,8 @@ $bg_grey: #808080;
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 3;
-    font-size: 24px;
-    text-align: center;
+    font-size: $p_text;
+    text-align: $center;
 }
 
 #project_pomodoro{
@@ -260,8 +261,8 @@ $bg_grey: #808080;
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
-    font-size: 24px;
-    text-align: center;
+    font-size: $p_text;
+    text-align: $center;
 }
 
 #project_usBar{
@@ -275,8 +276,8 @@ $bg_grey: #808080;
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 4;
-    font-size: 24px;
-    text-align: center;
+    font-size: $p_text;
+    text-align: $center;
 }
 
 #project_{
@@ -290,8 +291,8 @@ $bg_grey: #808080;
     grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 4;
-    font-size: 24px;
-    text-align: center;
+    font-size: $p_text;
+    text-align: $center;
 }
 
 img{
@@ -308,8 +309,8 @@ img:hover{
     grid-template-rows: auto auto auto auto 15%;
     background: linear-gradient(rgba(252,249,249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/About1.jpg');
     font-family: $font;
-    font-size: 36px;
-    height: 100vh;
+    font-size: $title;
+    height: $page_height;
 }
 
 #about_title{
@@ -317,7 +318,7 @@ img:hover{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
-    font-size: 36px;
+    font-size: $title;
     color: $black_font;
     margin-top: 2vh;
 }
@@ -348,7 +349,7 @@ img:hover{
 }
 
 #Nav, ul, li, a{
-    color: white;
+    color: $white_font;
     margin: 10vh 0 0 4vw;
     text-decoration: none;
     list-style-type: none;
@@ -357,5 +358,5 @@ img:hover{
 }
 
 li:hover{
-    color: black;
+    color: $black_font;
 }
