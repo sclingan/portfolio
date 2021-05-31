@@ -12,7 +12,7 @@ $p_text: 1.2vw;
 
 
 /*  TODO
-    make responsive
+    make responsive, especially about page!!
 */
 
 
@@ -95,8 +95,8 @@ $p_text: 1.2vw;
       font-size: 1.5vw;
   }
 
-  #form_name{    // fix the font size of inputs
-      background: lightgrey;
+  #form_name{    
+      background: #d3d3d3;
       width: 12vw;
       margin-left: 2.5vw;
       outline: none;
@@ -107,7 +107,7 @@ $p_text: 1.2vw;
 
   #form_email{     // make sure to clarify that this is either 'from' email or 'to' email
       margin-top: 4vh;
-      background: lightgrey;
+      background: #d3d3d3;
       width: 12vw;
       margin-left: .5vw;
       outline: none;
@@ -117,7 +117,7 @@ $p_text: 1.2vw;
   }
 
   #form_subject{
-      background: lightgrey;
+      background: #d3d3d3;
       margin-top: 4vh;
       width: 11vw;
       margin-left: .5vw;
@@ -129,7 +129,7 @@ $p_text: 1.2vw;
   }
 
   #form_message{
-      background: lightgrey;
+      background: #d3d3d3;
       min-height: 20vh;
       min-width: 20vw;
       border: none;
@@ -139,7 +139,7 @@ $p_text: 1.2vw;
   }
 
   #form_submit{
-      background: lightgrey;
+      background: #d3d3d3;
       margin-top: 10vh;
       border-radius: .5vw;
       font-size: $p_text;

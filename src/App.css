@@ -1,5 +1,5 @@
 /*  TODO
-    make responsive
+    make responsive, especially about page!!
 */
 * {
   margin: 0;
@@ -98,7 +98,7 @@
 }
 
 #form_name {
-  background: lightgrey;
+  background: #d3d3d3;
   width: 12vw;
   margin-left: 2.5vw;
   outline: none;
@@ -109,7 +109,7 @@
 
 #form_email {
   margin-top: 4vh;
-  background: lightgrey;
+  background: #d3d3d3;
   width: 12vw;
   margin-left: .5vw;
   outline: none;
@@ -119,7 +119,7 @@
 }
 
 #form_subject {
-  background: lightgrey;
+  background: #d3d3d3;
   margin-top: 4vh;
   width: 11vw;
   margin-left: .5vw;
@@ -131,7 +131,7 @@
 }
 
 #form_message {
-  background: lightgrey;
+  background: #d3d3d3;
   min-height: 20vh;
   min-width: 20vw;
   border: none;
@@ -141,7 +141,7 @@
 }
 
 #form_submit {
-  background: lightgrey;
+  background: #d3d3d3;
   margin-top: 10vh;
   border-radius: .5vw;
   font-size: 1.2vw;
