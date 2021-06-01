@@ -13,7 +13,7 @@ function Home(){
                Hi, I'm Scott and I love to code! Being a Web
                Developer is my main goal in life.      {/* fix the copy sounds too needy */}
            </p>
-           <Nav />
+           {/*<Nav />*/}
         </main>
     )
 }

@@ -25,7 +25,7 @@ function Contact(props){
                 Message:<textarea id='form_message' value={props.message}></textarea>
                 <button id='form_submit' onClick={log}>Send E-mail</button>
             </form>
-            <Nav />
+            {/*<Nav />*/}
         </main>
     )
 }
