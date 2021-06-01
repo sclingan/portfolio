@@ -17,7 +17,7 @@ function About(){
             ideas. Clean and simple design while being both functional and practical 
             are my goals.</p>
         </div>
-        {/*<Nav />*/}
+        <Nav />
         </main>
     )
 }

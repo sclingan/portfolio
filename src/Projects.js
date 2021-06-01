@@ -39,7 +39,7 @@ function Projects(){ /* add more projects!! */
          <div id='project_9'>More to come<br />
          <img id='project_' src='' alt=''></img>
          </div>
-         {/*<Nav />*/}
+         <Nav />
         </main>
     )
 }
