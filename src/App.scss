@@ -15,6 +15,11 @@ $p_text: 1.2vw;
     make responsive, especially about page!!
 */
 
+@mixin grid(){
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
 
 
 *{
@@ -26,8 +31,7 @@ $p_text: 1.2vw;
   }
   
   .Home{
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
+      @include grid;
       grid-template-rows: auto auto auto auto 15%;
       background: linear-gradient(rgba(252, 249, 249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Home.jpg');
       background-repeat: no-repeat;
@@ -147,8 +151,7 @@ $p_text: 1.2vw;
   }
 
   .Projects{
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
+      @include grid;
       grid-template-rows: auto auto auto auto auto;
       background: linear-gradient(rgba(252,249,249, 0.5), rgba(87, 85, 85, 0.5)), url('/src/images/Projects.jpg');
       color: $black_font;
