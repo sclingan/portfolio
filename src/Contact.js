@@ -3,22 +3,17 @@ import Nav from './Nav';
 
 
 function Contact(){
-    function log(e){   // find a better way to do this function, get all input info
+
+    function logData(e){
         e.preventDefault();
-        let name = document.getElementById('form_name').value;
-        let email = document.getElementById('form_email').value;
-        let subject = document.getElementById('form_subject').value;
-        let message = document.getElementById('form_message').value;
-        //console.log(name + ' ' + email + ' ' + subject + ' ' + message);
+        console.log(name, email, subject, message);
     }
 
-        const [name, getName] = useState();
-        const [email, getEmail] = useState();
-        const [subject, getSubject] = useState();
-        const [message, getMessage] = useState();
+        const [name, getName] = useState('');
+        const [email, getEmail] = useState('');
+        const [subject, getSubject] = useState('');
+        const [message, getMessage] = useState('');
         
-        
-    
     return(
         <main className='Contact'>
             <div id='heading'>Contact Me                                                   
@@ -27,11 +22,11 @@ function Contact(){
                 </div>
             </div>
             <form id='contact_form'>
-                Name:<input id='form_name' value={name}></input>
-                E-mail:<input id='form_email' value={email}></input>
-                Subject:<input id='form_subject' value={subject}></input>
-                Message:<textarea id='form_message' value={message}></textarea>
-                <button id='form_submit' onClick={log}>Send E-mail</button>
+                Name:<input id='form_name' value={name} onChange={event => getName(event.target.value)}></input>
+                E-mail:<input id='form_email' value={email} onChange={event => getEmail(event.target.value)}></input>
+                Subject:<input id='form_subject' value={subject} onChange={event => getSubject(event.target.value)}></input>
+                Message:<textarea id='form_message' value={message} onChange={event => getMessage(event.target.value)}></textarea>
+                <button id='form_submit' onClick={logData}>Send E-mail</button>
             </form>
             <Nav />
         </main>
