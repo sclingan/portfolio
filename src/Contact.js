@@ -1,16 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Nav from './Nav';
 
 
-function Contact(props){
+function Contact(){
     function log(e){   // find a better way to do this function, get all input info
         e.preventDefault();
         let name = document.getElementById('form_name').value;
         let email = document.getElementById('form_email').value;
         let subject = document.getElementById('form_subject').value;
         let message = document.getElementById('form_message').value;
-        console.log(name, email, subject, message);
+        //console.log(name + ' ' + email + ' ' + subject + ' ' + message);
     }
+
+        const [name, getName] = useState();
+        const [email, getEmail] = useState();
+        const [subject, getSubject] = useState();
+        const [message, getMessage] = useState();
+        
+        
+    
     return(
         <main className='Contact'>
             <div id='heading'>Contact Me                                                   
@@ -19,10 +27,10 @@ function Contact(props){
                 </div>
             </div>
             <form id='contact_form'>
-                Name:<input id='form_name' value={props.name}></input>
-                E-mail:<input id='form_email' value={props.email}></input>
-                Subject:<input id='form_subject' value={props.subject}></input>
-                Message:<textarea id='form_message' value={props.message}></textarea>
+                Name:<input id='form_name' value={name}></input>
+                E-mail:<input id='form_email' value={email}></input>
+                Subject:<input id='form_subject' value={subject}></input>
+                Message:<textarea id='form_message' value={message}></textarea>
                 <button id='form_submit' onClick={log}>Send E-mail</button>
             </form>
             <Nav />
