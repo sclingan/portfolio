@@ -20,6 +20,12 @@ $p_text: 1.2vw;
     grid-template-columns: auto auto auto auto auto;
 }
 
+@mixin projImg(){
+    width: 20vw;
+    height: 20vh;
+    margin-top: 2vh;
+}
+
 
 
 *{
@@ -179,9 +185,7 @@ $p_text: 1.2vw;
   }
 
   #project_randomQuote{
-      width: 20vw;
-      height: 20vh;
-      margin-top: 2vh;
+      @include projImg;
   }
 
   #project_2{
@@ -194,9 +198,7 @@ $p_text: 1.2vw;
   }
 
   #project_usGdp{
-      width: 20vw;
-      height: 20vh;
-      margin-top: 2vh;
+      @include projImg;
   }
 
   #project_3{
@@ -209,12 +211,10 @@ $p_text: 1.2vw;
 }
 
 #project_Coffee{
-    width: 20vw;
-    height: 20vh;
-    margin-top: 2vh;
+   @include projImg;
 }
 
-#project_4{        // make all projects a class with sass
+#project_4{        
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 3;
@@ -224,9 +224,7 @@ $p_text: 1.2vw;
 }
 
 #project_drum{
-    width: 20vw;
-    height: 20vh;
-    margin-top: 2vh;
+   @include projImg;
 }
 
 #project_5{
@@ -239,9 +237,7 @@ $p_text: 1.2vw;
 }
 
 #project_{
-    width: 20vw;
-    height: 20vh;
-    margin-top: 2vh;
+   @include projImg;
 }
 
 #project_6{
@@ -254,9 +250,7 @@ $p_text: 1.2vw;
 }
 
 #project_pomodoro{
-    width: 20vw;
-    height: 20vh;
-    margin-top: 2vh;
+    @include projImg;
 }
 
 #project_7{
@@ -269,9 +263,7 @@ $p_text: 1.2vw;
 }
 
 #project_usBar{
-    width: 20vw;
-    height: 20vh;
-    margin-top: 2vh;
+    @include projImg;
 }
 
 #project_8{
@@ -284,9 +276,7 @@ $p_text: 1.2vw;
 }
 
 #project_{
-    width: 20vw;
-    height: 20vh;
-    margin-top: 2vh;
+    @include projImg;
 }
 
 #project_9{
