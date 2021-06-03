@@ -4,7 +4,7 @@ import Nav from './Nav';
 
 function Contact(){
 
-    function logData(e){
+    function logData(e){  // use this function to pass data to email
         e.preventDefault();
         console.log(name, email, subject, message);
     }
