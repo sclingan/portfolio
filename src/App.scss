@@ -26,14 +26,24 @@ $p_text: 1.2vw;
     margin-top: 2vh;
 }
 
-
-
 *{
       margin: 0;
       padding: 0;
       font-family: $font;
       color: $black_font;
       font-size: $title;
+  }
+
+  .main{
+      @include grid;
+      grid-template-rows: auto auto auto auto auto;
+  }
+
+  .nav_bar{
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 4;
+      grid-row-end: 4;
   }
   
   .Home{
