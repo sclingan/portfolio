@@ -6,7 +6,7 @@ function Contact(){
 
     function logData(e){  // use this function to pass data to email
         e.preventDefault();
-        console.log(name, email, subject, message);
+        console.log(name + '\n' + email + '\n' + subject + '\n' + message);
     }
 
         const [name, getName] = useState('');
