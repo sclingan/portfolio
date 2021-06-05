@@ -4,7 +4,7 @@ import Nav from './Nav';
 
 function Contact(){
 
-    function logData(e){  // use this function to pass data to email
+    function logData(e){  // setup either emailJS or MailChimp or something similar
         e.preventDefault();
         console.log(name + '\n' + email + '\n' + subject + '\n' + message);
     }

@@ -415,4 +415,17 @@ img:hover {
 li:hover {
   color: #0C0B0B;
 }
+
+@media only screen and (max-width: 800px) {
+  #About {
+    background-size: cover;
+    background-position: center;
+  }
+  #about_p2 {
+    color: white;
+  }
+  #about_p3 {
+    color: white;
+  }
+}
 /*# sourceMappingURL=App.css.map */
