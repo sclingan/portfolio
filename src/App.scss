@@ -364,17 +364,37 @@ li:hover{
     color: $black_font;
 }
 
-@media only screen and(max-width: 800px){
+@media only screen and(max-width: 1690px){ // research css-tricks article on fluid typography!!!
     #About{
         background-size: cover;
         background-position: center;
     }
 
     #about_p2{
+        
+    }
+
+    #about_p3{
+        
+    }
+}
+
+@media only screen and(max-width: 1150px){
+    #about{
+        background-position: 0 450px;
+        background-size: cover;
+    }
+
+    #about_p2{
         color: white;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        margin-left: 0;
     }
 
     #about_p3{
         color: white;
+        grid-column-start: 5;
+        grid-column-end: 5;
     }
 }
