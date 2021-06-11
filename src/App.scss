@@ -15,6 +15,9 @@ $p_text: 1.2vw;
     make responsive, especially about page!!
     adjust grid to one or two rows depending on screen size
     adjust font sizes for each size and research fluid typography for in-between sizes
+    use calc() for font sizes
+    use html<picture> and img srcset for images
+    research grid fr measurements ( grid-template-columns: 1fr 1fr 1fr 1fr 1fr)
 */
 
 @mixin grid(){
@@ -24,6 +27,7 @@ $p_text: 1.2vw;
 
 @mixin projImg(){
     width: 20vw;
+    max-width: 100%;
     height: 20vh;
     margin-top: 2vh;
 }
