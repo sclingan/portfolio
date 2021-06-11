@@ -1,5 +1,7 @@
 /*  TODO
     make responsive, especially about page!!
+    adjust grid to one or two rows depending on screen size
+    adjust font sizes for each size and research fluid typography for in-between sizes
 */
 * {
   margin: 0;
@@ -414,32 +416,5 @@ img:hover {
 
 li:hover {
   color: #0C0B0B;
-}
-
-@media only screen and (max-width: 1690px) {
-  #About {
-    background-size: cover;
-    background-position: center;
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  #about {
-    background-position: 0 450px;
-    background-size: cover;
-  }
-  #about_p2 {
-    color: white;
-    -ms-grid-column: 5;
-        grid-column-start: 5;
-    grid-column-end: 5;
-    margin-left: 0;
-  }
-  #about_p3 {
-    color: white;
-    -ms-grid-column: 5;
-        grid-column-start: 5;
-    grid-column-end: 5;
-  }
 }
 /*# sourceMappingURL=App.css.map */
