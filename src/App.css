@@ -4,7 +4,6 @@
     adjust font sizes for each size and research fluid typography for in-between sizes
     use calc() for font sizes
     use html<picture> and img srcset for images
-    research grid fr measurements ( grid-template-columns: 1fr 1fr 1fr 1fr 1fr)
 */
 * {
   margin: 0;
